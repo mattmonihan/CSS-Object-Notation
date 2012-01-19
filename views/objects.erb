@@ -1,0 +1,127 @@
+<h1>Notices</h1>
+<p>Order of Significance: 3</p>
+
+<div class="wrapper guide-explanation">
+	<table>
+		<thead>
+			<tr>
+				<th>Class</th>
+				<th>Type</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td><code>.notice</code></td>
+				<td>Identifier</td>
+				<td>Identifies the object as a notice.</td>
+			</tr>
+			
+			<tr>
+				<td><code>.info</code></td>
+				<td>Variant</td>
+				<td>Helpful state to remind the user of things they might for get. Also for showing feedback.</td>
+			</tr>
+			
+			<tr>
+				<td><code>.warning</code></td>
+				<td>Variant</td>
+				<td>Warns the user of something that has happened.</td>
+			</tr>
+			
+			<tr>
+				<td><code>.error</code></td>
+				<td>Variant</td>
+				<td>For error messages, severe failures, or really important warnings.</td>
+			</tr>
+			
+			<tr>
+				<td><code>.message</code></td>
+				<td>attribute</td>
+				<td>Contains the message of the notice.</td>
+			</tr>
+			
+			<tr>
+				<td><code>.reasons</code></td>
+				<td>attribute</td>
+				<td>Ordered or unordered list of further information</td>
+			</tr>		
+			
+			<tr>
+				<td><code>.close</code></td>
+				<td>attribute</td>
+				<td>Close button to hide the notice</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h2>Light Notice</h2>
+
+<!-- Object.Notice -->
+<div class="notice info">
+	
+	<p class="message">Lorem ipsum dolor sit amet fahj gadtg osn lorem dolor sit ipsum. <a href="#">Link to somewhere</a></p>
+	
+	<a href="#" class="close">Hide</a><!-- Optional -->
+</div>
+
+<pre class="prettyprint lang-html">
+&lt;!-- Object.Notice --&gt;
+&lt;div class=&quot;notice info&quot;&gt;
+	
+	&lt;p class=&quot;message&quot;&gt;Lorem ipsum dolor sit amet fahj gadtg osn lorem dolor sit ipsum. &lt;a href=&quot;#&quot;&gt;Link to somewhere&lt;/a&gt;&lt;/p&gt;
+	
+	&lt;a href=&quot;#&quot; class=&quot;close&quot;&gt;Hide&lt;/a&gt;&lt;!-- Optional --&gt;
+&lt;/div&gt;
+</pre>
+
+<h2>Heavey Notice</h2>
+<!-- Object.Notice -->
+<div class="notice error">
+	
+	<h3 class="title">Connection Test Failed</h3><!-- Optional Notice Title -->
+	
+	<p class="message">Lorem ipsum dolor sit amet fahj gadtg osn lorem dolor sit ipsum. <a href="#">Link to somewhere</a></p>
+	
+	<ul class="reasons">
+		<li>
+			<h4>What Happened:</h4>
+			<p>There was an issue connecting to your server via Cisco VPN.</p>
+			<p>Lorem ipsum dolor sit amet fruth gadft benjt sit amet lorem dolor dolor dsak.</p>
+		</li>
+		
+		<li>
+			<h4>Details and Suggestions:</h4>
+			<p>Contact support. The VPN software on our server requires attention. click <a href="#">here</a>.</p>
+		</li>
+	</ul>
+	
+	<a href="#" class="close">Hide</a><!-- Optional -->
+</div>
+
+<pre class="prettyprint lang-html">
+&lt;!-- Object.Notice --&gt;
+&lt;div class=&quot;notice error&quot;&gt;
+	
+	&lt;h3 class=&quot;title&quot;&gt;Connection Test Failed&lt;/h3&gt;&lt;!-- Optional Notice Title --&gt;
+	
+	&lt;p class=&quot;message&quot;&gt;Lorem ipsum dolor sit amet fahj gadtg osn lorem dolor sit ipsum. &lt;a href=&quot;#&quot;&gt;Link to somewhere&lt;/a&gt;&lt;/p&gt;
+	
+	&lt;ul class=&quot;reasons&quot;&gt;
+		&lt;li&gt;
+			&lt;h4&gt;What Happened:&lt;/h4&gt;
+			&lt;p&gt;There was an issue connecting to your server via Cisco VPN.&lt;/p&gt;
+			&lt;p&gt;Lorem ipsum dolor sit amet fruth gadft benjt sit amet lorem dolor dolor dsak.&lt;/p&gt;
+		&lt;/li&gt;
+		
+		&lt;li&gt;
+			&lt;h4&gt;Details and Suggestions:&lt;/h4&gt;
+			&lt;p&gt;Contact support. The VPN software on our server requires attention. click &lt;a href=&quot;#&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+	
+	&lt;a href=&quot;#&quot; class=&quot;close&quot;&gt;Hide&lt;/a&gt;&lt;!-- Optional --&gt;
+&lt;/div&gt;
+</pre>
