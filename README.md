@@ -28,23 +28,28 @@ to understand, document, and extend.
 
 	<dt>State</dt>
 	<dd>All states contain the prefix "is-" to signify that it is a state. Available states:
-		* is-active
-		* is-visible
-		* is-hidden
-		* is-removed
-		* is-collapsed
-		* is-blurred
-		* is-focussed
+		<ul>
+			<li>is-active</li>
+			<li>is-visible</li>
+			<li>is-hidden</li>
+			<li>is-removed</li>
+			<li>is-collapsed</li>
+			<li>is-blurred</li>
+			<li>is-focussed</li>
+		</ul>
 	</dd>
 	
 	<dt>Action</dt>
 	<dd>
-* open
-* close
-* save
-* cancel
-* delete
-* update
+		<ul>
+			<li>open</li>
+			<li>close</li>
+			<li>save</li>
+			<li>cancel</li>
+			<li>delete</li>
+			<li>update</li>
+		</ul>
+
 	</dd>
 </dl>
 
